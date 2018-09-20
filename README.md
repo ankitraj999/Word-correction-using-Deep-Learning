@@ -4,7 +4,7 @@ Author: Ankit Raj
 
 1. Prerequisites of this project
 
- -> Libraries required:
+ > Libraries required:
     -Keras
     -numpy
     -editdistance
@@ -16,7 +16,7 @@ Author: Ankit Raj
      
    
      
- -> Dataset
+ > Dataset: 
      google's 1 billions words corpus
      "http://www.statmt.org/wmt14/training-monolingual-news-crawl/news.2013.en.shuffled.gz"
     
@@ -24,7 +24,7 @@ Author: Ankit Raj
 
 2. Instruction for Testing the Code:
    (On Terminal)
-  -> run Project_File/main.py file
+  > run Project_File/main.py file
      -Input incorrect words and press Enter
   
 
@@ -33,13 +33,13 @@ Author: Ankit Raj
 
 
 3. Things to do:
-  -> Clone this repository
-  -> Create 'data' folder containing 'unprocessed' and 'processed' folder.
-  -> store google's 1 billion corpus in the 'data/unprocessed' folder.
+  > Clone this repository
+  > Create 'data' folder containing 'unprocessed' and 'processed' folder.
+  > store google's 1 billion corpus in the 'data/unprocessed' folder.
   
   
 4. Approach:
-  -> Preparation of data
+  > Preparation of data
      introducing spelling errors to a given sentence
      four types of spelling mistakes
      type = 0 --> replace one character
@@ -48,7 +48,7 @@ Author: Ankit Raj
      type = 3 --> interchance positions of two next to next characters
      and store these sentences  with correct sentence in data/processed folder for training of the model(no pretrained weights are used)
    
- -> Choosing model
+ > Choosing model
      LSTM(Long short Term Memory) is used in this assignment.keras framework is used for the implementation of the model.
      Encoder and Decoder architecture approach is used in this assignment.
      optimizer used is adam which provide higher accuracy in less time as compare to other optimizers.
