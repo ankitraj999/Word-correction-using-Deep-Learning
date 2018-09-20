@@ -32,9 +32,13 @@ Author: Ankit Raj
 
 
 
-3. Approach, bottlenecks and things to do
+3. Things to do:
+  -> Clone this repository
   -> Create 'data' folder containing 'unprocessed' and 'processed' folder.
   -> store google's 1 billion corpus in the 'data/unprocessed' folder.
+  
+  
+4. Approach:
   -> Preparation of data
      introducing spelling errors to a given sentence
      four types of spelling mistakes
